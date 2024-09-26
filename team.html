@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Sherry's site
+    </title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!--header-->
+        <header>
+            <div class="logo">
+                <img src="IMAGES/my-image (2).png" alt="Sherry site" width="300px" height="100px">
+            </div>
+        </header>
+    <!--header-->
+
+    <!--Navigation-->
+        <nav>
+            <div class="nav_links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="contact_us.html">Contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+    <!--Navigation-->
+
+    <!--Our team-->
+    <div class="inner_banner">
+        <div class="banner_text">
+            <h1>Our Team</h1>
+            <p>The People Behind the Magic</p>
+        </div>
+    </div>
+
+    <div class="row p40 text_center">
+        <div class="container ">
+            <div class="col-4">
+                <img src="IMAGES/man.png" alt="" class="img_responsive">
+                <p><h4>Aiden Carter</h4></p>
+                <h3>Lead Programming Instructor</h3>
+            </div>
+            <div class="col-4">
+                <img src="IMAGES/t2.png" alt="" class="img_responsive">
+                <p><h4>Noah Brooks</h4></p>
+                <h3>Python Expert</h3>
+            </div>
+            <div class="col-4">
+                <img src="IMAGES/t3.png" alt="" class="img_responsive">
+                <p><h4>Lily Adams </h4></p>
+                <h3>Curriculum Developer</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row p40 text_center">
+        <div class="container">
+            <div class="col-4">
+                <img src="IMAGES/t4.png" alt="" class="img_responsive">
+                <p><h4>Lucas Bennett</h4></p>
+                <h3>Data Structures & Algorithms Instructor</h3>
+            </div>
+            <div class="col-4">
+                <img src="IMAGES/t5.png" alt="" class="img_responsive">
+                <p><h4>Ethan Foster </h4></p>
+                <h3>Backend Programming Mentor</h3>
+            </div>
+            <div class="col-4">
+                <img src="IMAGES/t6.png" alt="" class="img_responsive">
+                <p><h4>Emily Watson</h4></p>
+                <h3> JavaScript Specialist </h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row p40 text_center">
+        <div class="container">
+            <div class="col-4">
+                <img src="IMAGES/t7.png" alt="" class="img_responsive">
+                <p><h4>Jacob Miller</h4></p>
+                <h3>Mobile App Development Instructor </h3>
+            </div>
+        </div>
+    </div>
+
+    <!--Our team-->
+
+    <!--footer-->
+        <footer>
+            <div class="row">
+                <div class="container">
+                    <div class="col-3">
+                        <h3>Information</h3>
+                        <ul class="footer-menu">
+                            <li>Point no. 1</li>
+                            <li>Point no. 2</li>
+                            <li>Point no. 3</li>
+                            <li>Point no. 4</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-3">
+                        <h3>About Us</h3>
+                        <ul class="footer-menu">
+                            <li>Point no. 1</li>
+                            <li>Point no. 2</li>
+                            <li>Point no. 3</li>
+                            <li>Point no. 4</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-3">
+                        <h3>Contact Us</h3>
+                        <ul class="footer-menu">
+                            <li>Point no. 1</li>
+                            <li>Point no. 2</li>
+                            <li>Point no. 3</li>
+                            <li>Point no. 4</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-3">
+                        <h3>Services</h3>
+                        <ul class="footer-menu">
+                            <li>Point no. 1</li>
+                            <li>Point no. 2</li>
+                            <li>Point no. 3</li>
+                            <li>Point no. 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!--footer-->
+
+        <div class="copyright">
+            <p>© 2024 SHERRY CODES | All Rights Reserved.</p>
+        </div>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.left="0px";
+        }
+        function hidemenu(){
+            navLinks.style.left="-200px";
+        }
+    </script>
+</body>
+
+</html>
